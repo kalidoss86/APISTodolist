@@ -1,0 +1,5 @@
+    <div *ngIf="loading == true" class="loader"></div>
+    <div *ngIf="loading == false" class="list-group">
+      <a class="list-group-item list-group-item-action list-group-item-success" *ngFor="let todoItem of todoList">{{todoItem.TodoTitle}}</a>
+    </div>
+<!--https://stackoverflow.com/questions/37490230/angular2-show-activity-indicator-for-every-http-request-and-hide-views-until-co-->

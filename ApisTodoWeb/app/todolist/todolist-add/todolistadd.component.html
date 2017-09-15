@@ -1,0 +1,12 @@
+<form #form="ngForm" (ngSubmit)="submitForm(form.value)">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="input-group input-group-sm form-group">
+        <input type="text" class="form-control" name="todotask" placeholder="Add you Task" [(ngModel)]="todoTitle" required />
+        <div class="input-group-btn">
+          <button type="submit" class="btn">Add Task</button>
+        </div><!-- /btn-group -->
+      </div><!-- /input-group -->
+    </div><!-- /.col-xs-12 -->
+  </div><!-- /.row -->
+</form>

@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APISTodolist", "APISTodolist\APISTodolist.csproj", "{B217DF45-1B2B-4DB2-B836-7B6EEBA12176}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApisTodolist", "APISTodolist\ApisTodolist.csproj", "{B217DF45-1B2B-4DB2-B836-7B6EEBA12176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApisTodo.ModelsF", "ApisTodo.ModelsF\ApisTodo.ModelsF.csproj", "{F6EA3B34-345B-449A-B544-A8FE218C5710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApisTodo.DataAccessF", "ApisTodo.DataAccessF\ApisTodo.DataAccessF.csproj", "{696A6355-4ADF-4F74-BAD5-3763616E8077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApisTodo.DataAccessFTests", "ApisTodo.DataAccessFTests\ApisTodo.DataAccessFTests.csproj", "{EF9E5887-B0BA-4B0F-A66B-7A18D39DFC1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApisTodoWeb", "ApisTodoWeb\ApisTodoWeb.csproj", "{17CABED3-6383-4187-8872-11BB5E0D626E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{B217DF45-1B2B-4DB2-B836-7B6EEBA12176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B217DF45-1B2B-4DB2-B836-7B6EEBA12176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B217DF45-1B2B-4DB2-B836-7B6EEBA12176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EA3B34-345B-449A-B544-A8FE218C5710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EA3B34-345B-449A-B544-A8FE218C5710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EA3B34-345B-449A-B544-A8FE218C5710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EA3B34-345B-449A-B544-A8FE218C5710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696A6355-4ADF-4F74-BAD5-3763616E8077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696A6355-4ADF-4F74-BAD5-3763616E8077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696A6355-4ADF-4F74-BAD5-3763616E8077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696A6355-4ADF-4F74-BAD5-3763616E8077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9E5887-B0BA-4B0F-A66B-7A18D39DFC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9E5887-B0BA-4B0F-A66B-7A18D39DFC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9E5887-B0BA-4B0F-A66B-7A18D39DFC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9E5887-B0BA-4B0F-A66B-7A18D39DFC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CABED3-6383-4187-8872-11BB5E0D626E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CABED3-6383-4187-8872-11BB5E0D626E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CABED3-6383-4187-8872-11BB5E0D626E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CABED3-6383-4187-8872-11BB5E0D626E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
